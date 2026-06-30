@@ -1,0 +1,4 @@
+Site: MyMaintenance HomePassport
+Purpose: Pre-launch website for a UK digital property passport and property maintenance platform.
+Built: 2026-06-29
+Primary pages: Home, Homeowners, Trade Partners, About, Contact, Privacy, Terms, Cookies.
