@@ -436,6 +436,13 @@ h3 {
   line-height: 1.18;
 }
 
+.footer-bottom-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .lead {
   color: var(--muted);
   font-size: 20px;
@@ -443,6 +450,66 @@ h3 {
 
 .hero-copy .lead {
   margin-bottom: 28px;
+}
+
+.footer-bottom-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-copy {
+  margin: 0;
+  font-size: 14px;
+  color: var(--default-color);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.footer-copy .sitename {
+  font-weight: 600;
+  color: #25a9e0;
+}
+
+.footer-copy a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--default-color);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: inherit;
+  line-height: 1;
+  transition: 0.3s ease;
+}
+
+.footer-copy a:hover {
+  color: var(--accent-color);
+}
+
+.footer-copy img {
+  height: 19px;
+  width: 19px !important;
+  transform: translateY(1px);
+}
+
+.footer .copyright {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: color-mix(in srgb, var(--default-color), transparent 95%);
+}
+
+@media (max-width: 767px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer-copy {
+    justify-content: center;
+  }
 }
 
 .hero-actions,
